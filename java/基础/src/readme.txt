@@ -2,8 +2,8 @@
 wait(), notify(), notifyAll(), wait(timeout)
 hashCode(), equals()
 clone()
-2、String
 
+2、String
 char[] value
 int hash
 equals(), startWith(), endWith(), replace
