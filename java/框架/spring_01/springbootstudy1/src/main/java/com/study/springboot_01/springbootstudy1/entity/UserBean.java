@@ -1,10 +1,10 @@
 package com.study.springboot_01.springbootstudy1.entity;
 
 import com.study.springboot_01.springbootstudy1.common.StartWithValidation;
+import org.springframework.context.annotation.Bean;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
-
 public class UserBean {
     @NotBlank
     @Size(max = 10)
